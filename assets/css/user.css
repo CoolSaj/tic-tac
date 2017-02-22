@@ -1,0 +1,82 @@
+#playspot{
+  border-collapse:separate;
+  table-layout:fixed;
+  height:460px;
+  width:510px;
+  border-spacing:10px 10px;
+  font-size:500%;
+  text-align:center;
+}
+
+@media (max-width:767px) {
+  #playspot{
+    border-collapse:collapse;
+    table-layout:fixed;
+    height:300px;
+    width:300px;
+    border-spacing:5px 5px;
+    font-size:300%;
+  }
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine{
+  border-color:black;
+  background-color:orange;
+
+
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover {
+  border-color:black;
+  background-color:yellow;
+}
+
+div.jumbotron{
+  margin-left:15px;
+  margin-right:15px;
+}
+
+div.col-lg-6.col-md-7{
+  text-align:center;
+}
+
+div#playarea{
+  display:inline-block;
+}
+
+div.col-md-12{
+  background-color:#eeeccc;
+  opacity:100;
+}
+
+p#myintro{
+  color:#000;
+}
+
+p#startcontainer{
+  text-align:center;
+}
+
+#scorediv{
+  margin-top:20%;
+  text-align:center;
+}
+
+th{
+  text-align:center;
+}
+
+#result{
+  margin-top:10%;
+  margin-bottom:10%;
+}
+
+.x,.y,.z {
+  height: 120px;
+}
+
+@media (max-width:767px) {
+  .x,.y,.z {
+  height: 80px;
+}
+}
